@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>“Unveiling The Expose Game!"</h1>
+        <section>
+            <button onclick="startGame();">Start Game</button>
+            <button onclick="restartGame();">Restart Game</button>
+            <button onclick="exitGame();">Exit Game</button>
+        </section>
+    </div>
+
+    <!-- Add the board element -->
+    <div id="board"></div>
+    
+    <!-- Add the game over message element -->
+    <div id="game-over" style="display: none;"></div>
+    <div id="chances"></div>
+    <script src="game.js"></script>
+</body>
+</html>
